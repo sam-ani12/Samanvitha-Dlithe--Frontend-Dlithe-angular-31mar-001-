@@ -7,12 +7,14 @@ import { PastrylistComponent } from './pastrylist/pastrylist.component';
 import { PastrylistDetailsComponent } from './pastrylist-details/pastrylist-details.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PastrylistComponent,
-    PastrylistDetailsComponent
+    PastrylistDetailsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
